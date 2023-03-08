@@ -96,6 +96,48 @@
 #     print(f"{licznik}: {lista[licznik]}")
 #     licznik += 1
 
+# liczby = [2, 5, 6, 7, 3, 4, 4]
+#
+#
+# a = int(input("podaj a: "))
+#
+# licznik = 0
+#
+# while licznik != len(liczby):
+#     if liczby[licznik] - a == 0:
+#         print(liczby[licznik])
+#         break
+#     licznik += 1
+
+
+liczby = [2, 5, 6, 7, 3, 4, 4, 3, 4]
+
+a = int(input("Podaj liczbe do usuniecia z listy liczb: "))
+
+# for liczba in liczby:
+#     if liczba == a:
+#         liczby.remove(a)
+#         print(liczby)
+# print(liczby)
+# indexy = []
+#
+# for i in range(0, len(liczby)):
+#     if liczby[i] == a:
+#         indexy.append(i)
+# print(indexy)
+# indexy.reverse()
+#
+# for index in indexy:
+#     liczby.pop(index)
+#
+# print(liczby)
+
+for i in range(len(liczby)-1, -1, -1):
+    if liczby[i] == a:
+            liczby.pop(i)
+            print(liczby)
+    print(liczby)
+
 
 
 

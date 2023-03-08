@@ -15,20 +15,41 @@
 # lista.pop(6) # usuwaniei elementy po indexie, jezeli nie ma podanego indexu to ostatni element
 # print(lista)
 
-slownik  = {1: "a", 2: 2, 3: [1, 2, 3], 4: "napis"}
-print(slownik)
-print(slownik[1])
-slownik[5] = "drugi napis"
-print(slownik)
+# slownik  = {1: "a", 2: 2, 3: [1, 2, 3], 4: "napis"}
+# print(slownik)
+# print(slownik[1])
+# slownik[5] = "drugi napis"
+# print(slownik)
+#
+# slownik.pop(2)
+# print(slownik)
+# del slownik[3]
+#
+# print(slownik.keys())
+# print(slownik.values())
+#
+# print("a = %(zmienna)d" % {"zmienna": 12}) # inny zapis wyswietlania zmiennych
+# print("a = {}".format(12)) # jeszcze kolejny zapis
 
-slownik.pop(2)
-print(slownik)
-del slownik[3]
 
-print(slownik.keys())
-print(slownik.values())
+# napis = input("wpisz cos: ") # wczytywanie input od uzytkownika
+#
+# print(napis)
 
-print("a = %(zmienna)d" % {"zmienna": 12}) # inny zapis wyswietlania zmiennych
-print("a = {}".format(12)) # jeszcze kolejny zapis
+# a = int(input("Podaj pierwsza liczbe: "))
+# b = int(input("Podaj druga liczbe: "))
+#
+# if a > b:
+#     print("a > b")
+# elif a < b:
+#     print("a < b")
+# else:
+#     print("a = b")
 
-
+# a = int(input("Podaj pierwsza liczbe: "))
+# b = int(input("Podaj druga liczbe: "))
+#
+# if a == b:
+#     print("a = b")
+# else:
+#     print("a != b")

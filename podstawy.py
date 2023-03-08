@@ -53,3 +53,49 @@
 #     print("a = b")
 # else:
 #     print("a != b")
+
+# a = int(input("Podaj pierwsza liczbe: "))
+# b = int(input("Podaj druga liczbe: "))
+# c = int(input("Podaj trzecia liczbe: "))
+# d = int(input("Podaj czwarta liczbe: "))
+
+# trzy sposoby zapisania warunku z "i"
+
+# if (a > b) and (c < d):
+#     print("a > b i c < d")
+#
+# if a > b and c < d:
+#     print("a > b i c < d")
+
+# if a > b & c < d:
+#     print("a > b i c < d")
+
+# if (a > b) | (c < d): # musza byc nawiasy inaczej nie zadziała poprawnie
+#     print("a > b albo c < d")
+
+# if (a > b) or (c < d):
+#     print("a > b albo c < d")
+
+# lista = [6, 2, 3, 4, 5, 2, 3]
+# output = ""
+#
+# for i in range(0, len(lista)):
+#     output += str(lista[i]) + " "
+# print(output)
+#
+# output = ""
+# for liczba in lista:
+#     output += str(liczba) + " "
+# print(output)
+
+# lista = [6, 2, 3, 4, 5, 2, 3]
+#
+# licznik = 0
+#
+# while licznik != len(lista):
+#     print(f"{licznik}: {lista[licznik]}")
+#     licznik += 1
+
+
+
+

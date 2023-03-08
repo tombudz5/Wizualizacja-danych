@@ -14,6 +14,7 @@ lista.sort() # sortuje liste
 print(lista)
 lista.pop(6) # usuwaniei elementy po indexie, jezeli nie ma podanego indexu to ostatni element
 print(lista)
+#komentarz z github'a
 
 
 

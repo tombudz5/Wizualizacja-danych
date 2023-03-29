@@ -41,7 +41,7 @@ import math
 # # ZADANIE 5
 #
 # n = input("Podaj liczbe calkowita n: ")
-# 
+#
 # try:
 #     n = int(n)
 # except ValueError:

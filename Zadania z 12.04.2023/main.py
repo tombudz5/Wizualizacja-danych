@@ -33,7 +33,9 @@ import numpy as np
 # print(b)
 # print(type(b))
 # print(b.dtype)  # w tym przypadku typ danych to float64
-#
+
+
+
 # zera = np.zeros((5, 5))
 # jedynki = np.ones((3, 4))
 # print(zera)
@@ -44,6 +46,8 @@ import numpy as np
 # pusta = np.empty((2,2))
 # print(pusta)
 
+
+
 # macierz = np.array([[12, 11], [2, 1]])
 # print(macierz)
 # poz_1 = macierz[1, 1]  # pierwszy sposob, w jendym nawiasie najpierw wiesz, potem kolumna (liczac od 0)
@@ -51,15 +55,21 @@ import numpy as np
 # print(poz_1)
 # print(poz_2)
 
+
+
 # liczby_lin = np.linspace(1, 2, 5, endpoint=False)  # wartosci pomiedzy 1, 2 i ma być tych wartosci 5 bez liczenia ostatniego elementu (bez 2)
 # print(liczby_lin)
 #
 # liczby_lin = np.linspace(1, 2, 5)  # wartosci pomiedzy 1, 2 i ma być tych wartosci 5
 # print(liczby_lin)
 
+
+
 # z = np.indices((5,3))  # tworzy dwie macierze, pierwsza ktora jest inkrementowana kolumnami, druga wierszami
 # print(z)  # wypisuje obie macierze
 # print(z[0][1][2])  # [0] ktora z dwoch macierz, [1] ktory wiersz z tej macierzy, [2] ktory element z [1] wiersza
+
+
 
 # mac_diag = np.diag([a for a in range(5)])
 # print(mac_diag)
@@ -69,6 +79,8 @@ import numpy as np
 
 # z = np.fromiter(range(5), dtype="int32")
 # print(z)
+
+
 
 # znaki = b"ogolna"
 #
@@ -84,6 +96,7 @@ import numpy as np
 # print(z5)
 # z6 = np.fromiter(znaki, dtype = "S1")
 # print(z6)
+
 
 # # sposoby na ciecie tablicy
 #

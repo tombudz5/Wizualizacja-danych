@@ -84,3 +84,19 @@ import numpy as np
 # print(z5)
 # z6 = np.fromiter(znaki, dtype = "S1")
 # print(z6)
+
+# # sposoby na ciecie tablicy
+#
+# a = np.arange(10)
+# print(a)
+#
+# s = slice(2, 7, 2)  # to samo
+# print(a[s])
+#
+# s = range(2, 7, 2)  # to samo
+# print(a[s])
+#
+# print(a[2:7:2])  # inny sposob
+#
+# print(a[1:])  # jescze inny
+# print(a[2:5])

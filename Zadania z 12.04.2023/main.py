@@ -100,3 +100,14 @@ import numpy as np
 #
 # print(a[1:])  # jescze inny
 # print(a[2:5])
+
+
+mat = np.arange(25)
+# print(mat)
+mat = mat.reshape((5, 5))  # zamieniamy tablice z 25 elementami na macierz 5x5
+# print(mat)
+print(mat[1:])  # wypisujemy macierz od wiersza o indeksie 1
+print(mat[:, 1])  # wypisujemy kolumne o indeksie 1
+print(mat[:, -1]) # wypisujemy ostatnia kolumne
+
+print(mat[:, 1:2])  # tworzy nowa macierz o wymiarach 1x5

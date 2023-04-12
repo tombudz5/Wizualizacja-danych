@@ -70,4 +70,17 @@ import numpy as np
 # z = np.fromiter(range(5), dtype="int32")
 # print(z)
 
-znaki = "ogolna"
+# znaki = b"ogolna"
+#
+# z1 = np.frombuffer(znaki, dtype="S1")
+# print(z1)
+#
+# znaki = "ogolna"
+# z3 = np.array(list(znaki))
+# print(z3)
+# z4 = np.array(list(znaki), dtype="S1")
+# print(z4)
+# z5 = np.array(list(b"ogolna"))
+# print(z5)
+# z6 = np.fromiter(znaki, dtype = "S1")
+# print(z6)

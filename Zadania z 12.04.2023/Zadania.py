@@ -23,4 +23,10 @@ import numpy as np
 #
 # print(funkcja(5))
 
-
+# # ZADANIE 4
+#
+# def generuj(podstawa, liczba_poteg):
+#     potegi = np.logspace(0, liczba_poteg - 1, num=liczba_poteg, base=podstawa)
+#     return potegi
+#
+# print(generuj(2, 4))

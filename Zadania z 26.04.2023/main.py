@@ -33,7 +33,7 @@ import pandas as pd
 
 # ZADANIE 1
 
-df = pd.read_excel('imiona.xlsx', header=None, skiprows=1)
+# df = pd.read_excel('imiona.xlsx', header=None, skiprows=1)
 
 # ZADANIE 2
 

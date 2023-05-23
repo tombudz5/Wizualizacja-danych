@@ -39,23 +39,23 @@ from PIL import Image
 # mpl.show()
 
 
-# data = {'a': np.arange(50),
-#         'c': np.random.randint(0, 50, 50),
-#         'd': np.random.randn(50)}
-#
-# data['b'] = data['a'] + 10 * np.random.randn(50)
-# data['d'] = np.abs(data['d']) * 100
-#
-# mpl.scatter('a', 'b', c='c', s='d', data=data, cmap='plasma')
-# mpl.xlabel('klucz a')
-# mpl.ylabel('klucz b')
-# mpl.show()
+data = {'a': np.arange(50),
+        'c': np.random.randint(0, 50, 50),
+        'd': np.random.randn(50)}
 
-x1 = np.arange(0, 2, 0.02)
-x2 = np.arange(0, 2, 0.02)
+data['b'] = data['a'] + 10 * np.random.randn(50)
+data['d'] = np.abs(data['d']) * 100
+#
+mpl.scatter('a', 'b', c='c', s='d', data=data, cmap='plasma')
+mpl.xlabel('klucz a')
+mpl.ylabel('klucz b')
+mpl.show()
 
-y1 = np.sin(x1 * np.pi * 2)
-y2 = np.cos(x2 * np.pi * 2)
+# x1 = np.arange(0, 2, 0.02)
+# x2 = np.arange(0, 2, 0.02)
+#
+# y1 = np.sin(x1 * np.pi * 2)
+# y2 = np.cos(x2 * np.pi * 2)
 #
 # mpl.subplot(4, 1, 1)
 # mpl.plot(x1, y1, 'r-')
@@ -95,13 +95,13 @@ y2 = np.cos(x2 * np.pi * 2)
 # mpl.show()
 
 
-data = {'Kraj': ['Belgia', 'Polska', 'Niemcy', 'Tunezja', 'USA'],
-        'Stolica': ['Bruksela', 'Warszawa', 'Berlin', 'Tunis', "Waszyngton"],
-        'Kontynent': ['Europa', 'Europa', 'Europa', 'Afryka', 'Ameryka Polnocna'],
-        'Populacja': [11190846, 39500000, 83000000, 32000000, 348000000]}
-
-df = pd.DataFrame(data)
-print(df)
+# data = {'Kraj': ['Belgia', 'Polska', 'Niemcy', 'Tunezja', 'USA'],
+#         'Stolica': ['Bruksela', 'Warszawa', 'Berlin', 'Tunis', "Waszyngton"],
+#         'Kontynent': ['Europa', 'Europa', 'Europa', 'Afryka', 'Ameryka Polnocna'],
+#         'Populacja': [11190846, 39500000, 83000000, 32000000, 348000000]}
+#
+# df = pd.DataFrame(data)
+# print(df)
 
 # grupa = df.groupby('Kontynent')
 #
@@ -117,8 +117,8 @@ print(df)
 #
 # mpl.show()
 
-grupa = df.groupby('Kontynent').agg({'Populacja': ['sum']})
-print(grupa)
+# grupa = df.groupby('Kontynent').agg({'Populacja': ['sum']})
+# print(grupa)
 
 # pierwszy sposob
 # grupa.plot(kind='bar', xlabel='Kontynent', ylabel='Populacja', legend=True, title='Populacja na kontynentach', rot=0)
@@ -139,10 +139,12 @@ print(grupa)
 # ts.plot()
 # mpl.show()
 
-df = pd.read_csv('dane.csv', header=0, sep=';', decimal='.')
-print(df)
-grupa = df.groupby('Imie i nazwisko').agg({'Wartosc zamowienia': ['sum']})
-grupa.plot(kind='pie', subplots=True, autopct='%.2f%%', fontsize=20, figsize=(6,6), colors=['red', 'green'])
-mpl.legend(loc='lower right')
-mpl.title('Procent zamowienia dla sprzedawcy')
-mpl.show()
+# df = pd.read_csv('dane.csv', header=0, sep=';', decimal='.')
+# print(df)
+# grupa = df.groupby('Imię i nazwisko').agg({'Wartość zamówienia': ['sum']})
+# grupa.plot(kind='pie', subplots=True, autopct='%.2f%%', fontsize=20, figsize=(6,6), colors=['red', 'green'])
+# mpl.legend(loc='lower right')
+# mpl.title('Procent zamowienia dla sprzedawcy')
+# mpl.show()
+
+# import matplotlib.pyplot as plt#przekazujemy dwa wektory wartości, najpierw dla wektora x, następnie dla wektora y#dodatkowo mamy tutaj przekazywany parametr w postaci stringa, który określa styl wykresu#dla pełnej listy sprawdź dokumentację pod adresem#https://matplotlib.org/api/_as_gen/matplotlib.pyplot.plot.html#matplotlib.pyplot.plotplt.plot([1, 2, 3, 4], [1, 4, 9, 16], 'ro-')#tutaj określamy listę parametrów w postaci [xmin, xmax, ymin, ymax]plt.axis([0, 6, 0, 20])plt.show()#możemy też ustawić różne kolory dla poszczególnych elementów nakładając na siebie dwa wykresyplt.plot([1, 2, 3, 4], [1, 4, 9, 16], 'r')plt.plot([1, 2, 3, 4], [1, 4, 9, 16], 'o')plt.axis([0, 6, 0, 20])plt.show()

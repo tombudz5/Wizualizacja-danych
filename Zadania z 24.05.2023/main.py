@@ -45,10 +45,10 @@ from PIL import Image
 # mpl.show()
 
 
-data = {'Kraj': ['Belgia', 'Indie', 'Brazylia', 'Polska'],'Stolica': ['Bruksela', 'New Delhi', 'Brasilia', 'Warszawa'],'Kontynent': ['Europa', 'Azja', 'Ameryka Południowa', 'Europa'],'Populacja': [11190846, 1303171035, 207847528, 38675467]}
+data = {'Kraj': ['Belgia', 'Indie', 'Brazylia', 'Polska'],'Stolica': ['Bruksela', 'New Delhi', 'Brasilia', 'Warszawa'],'Kontynent': ['Europa', 'Azja', 'Ameryka Południowa', 'Europa'],'Populacja': [11190846, 1303171035, 207847528, 386754670]}
 df = pd.DataFrame(data)
 sns.set()
-plot = sns.barplot(data=df, x='Kontynent', y='Populacja', ci=None, hue='Kontynent', estimator=np.sum, dodge=False, palette=['red', 'green', 'yellow'])
+plot = sns.barplot(data=df, x='Kontynent', y='Populacja', ci=None, hue='Kontynent', estimator=np.sum, dodge=False, palette=['yellow', 'red', 'blue'])
 plot.legend(title='Populacja na kontynentach')
 plot.set(title='Wykres słupkowy')
 mpl.show()

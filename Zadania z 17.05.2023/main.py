@@ -51,12 +51,12 @@ from PIL import Image
 # mpl.ylabel('klucz b')
 # mpl.show()
 
-# x1 = np.arange(0, 2, 0.02)
-# x2 = np.arange(0, 2, 0.02)
-#
-# y1 = np.sin(x1 * np.pi * 2)
-# y2 = np.cos(x2 * np.pi * 2)
-#
+x1 = np.arange(0, 2, 0.02)
+x2 = np.arange(0, 2, 0.02)
+
+y1 = np.sin(x1 * np.pi * 2)
+y2 = np.cos(x2 * np.pi * 2)
+
 # mpl.subplot(4, 1, 1)
 # mpl.plot(x1, y1, 'r-')
 # mpl.title('Wykres sin(x)')
@@ -71,28 +71,28 @@ from PIL import Image
 # mpl.subplots_adjust(hspace=0.5)
 # mpl.show()
 
-# fig, axs = mpl.subplots(3, 2)
-# axs[0,0].plot(x1, y1)
-# axs[0,0].set_title('wykres sin(x)')
-# axs[0,0].set_xlabel('x')
-# axs[0,0].set_ylabel('y')
-#
-# axs[1,1].plot(x2, y2)
-# axs[1,1].set_title('wykres cos(x)')
-# axs[1,1].set_xlabel('x')
-# axs[1,1].set_ylabel('y')
-#
-# axs[2,0].plot(x1, y1, 'r')
-# axs[2,0].set_title('wykres sin(x)')
-# axs[2,0].set_xlabel('x')
-# axs[2,0].set_ylabel('y')
-#
-# mpl.subplots_adjust(hspace=1, wspace=0.25)
-#
-# fig.delaxes(axs[0, 1])
-# fig.delaxes(axs[1, 0])
-# fig.delaxes(axs[2, 1])
-# mpl.show()
+fig, axs = mpl.subplots(3, 2)
+axs[0,0].plot(x1, y1)
+axs[0,0].set_title('wykres sin(x)')
+axs[0,0].set_xlabel('x')
+axs[0,0].set_ylabel('y')
+
+axs[1,1].plot(x2, y2)
+axs[1,1].set_title('wykres cos(x)')
+axs[1,1].set_xlabel('x')
+axs[1,1].set_ylabel('y')
+
+axs[2,0].plot(x1, y1, 'r')
+axs[2,0].set_title('wykres sin(x)')
+axs[2,0].set_xlabel('x')
+axs[2,0].set_ylabel('y')
+
+mpl.subplots_adjust(hspace=1, wspace=0.25)
+
+fig.delaxes(axs[0, 1])
+fig.delaxes(axs[1, 0])
+fig.delaxes(axs[2, 1])
+mpl.show()
 
 
 # data = {'Kraj': ['Belgia', 'Polska', 'Niemcy', 'Tunezja', 'USA'],

@@ -52,3 +52,5 @@ from PIL import Image
 # plot.legend(title='Populacja na kontynentach')
 # plot.set(title='Wykres słupkowy')
 # mpl.show()
+
+

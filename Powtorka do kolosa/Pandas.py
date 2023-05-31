@@ -29,7 +29,10 @@ df = pd.read_csv('games.txt', delimiter=',')
 # print(df['Total'])
 
 # print(df)
-df.plot(x='Game', y='Release Year', kind='scatter')
+# df[['Game', 'Release Year']].hist()
+# df.plot.scatter(x='Game', y='Release Year')
+# df.plot(x='Game', y='Release Year', kind='scatter') # kind= ['box', 'hexbin', 'pie', 'line', 'scatter']
+# df['Release Year'].plot.kde()
 plt.show()
 
 

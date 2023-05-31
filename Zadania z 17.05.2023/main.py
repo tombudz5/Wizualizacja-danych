@@ -39,17 +39,17 @@ from PIL import Image
 # mpl.show()
 
 
-data = {'a': np.arange(50),
-        'c': np.random.randint(0, 50, 50),
-        'd': np.random.randn(50)}
-
-data['b'] = data['a'] + 10 * np.random.randn(50)
-data['d'] = np.abs(data['d']) * 100
+# data = {'a': np.arange(50),
+#         'c': np.random.randint(0, 50, 50),
+#         'd': np.random.randn(50)}
 #
-mpl.scatter('a', 'b', c='c', s='d', data=data, cmap='plasma')
-mpl.xlabel('klucz a')
-mpl.ylabel('klucz b')
-mpl.show()
+# data['b'] = data['a'] + 10 * np.random.randn(50)
+# data['d'] = np.abs(data['d']) * 100
+# #
+# mpl.scatter('a', 'b', c='c', s='d', data=data, cmap='plasma')
+# mpl.xlabel('klucz a')
+# mpl.ylabel('klucz b')
+# mpl.show()
 
 # x1 = np.arange(0, 2, 0.02)
 # x2 = np.arange(0, 2, 0.02)

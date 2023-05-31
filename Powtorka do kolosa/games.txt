@@ -1,0 +1,32 @@
+Game,Price,Release Date,Release Year,Total Cost,Peak Players
+Minecraft,26.95,May 17, 2009,2.5 billion,132 million
+Fortnite,Free,July 25, 2017,10 billion,78.3 million
+PlayerUnknown's Battlegrounds,29.99,December 20, 2017,1 billion,3.2 million
+Grand Theft Auto V,29.99,September 17, 2013,6 billion,260 thousand
+Apex Legends,Free,February 4, 2019,1 billion,12 million
+Overwatch,39.99,May 24, 2016,1 billion,12 million
+League of Legends,Free,October 27, 2009,2 billion,8 million
+Counter-Strike: Global Offensive,Free,August 21, 2012,1 billion,1.3 million
+World of Warcraft,Subscription,November 23, 2004,9.23 billion,12 million
+Dota 2,Free,July 9, 2013,1 billion,1 million
+The Witcher 3: Wild Hunt,39.99,May 19, 2015,50 million,92 thousand
+Among Us,3.99,June 15, 2018,11.4 million,438 thousand
+Call of Duty: Warzone,Free,March 10, 2020,3 billion,6 million
+FIFA 21,59.99,October 9, 2020,2.5 billion,2.6 million
+Red Dead Redemption 2,59.99,October 26, 2018,725 million,92 thousand
+Fall Guys: Ultimate Knockout,19.99,August 4, 2020,185 million,172 thousand
+Among Us,3.99,June 15, 2018,11.4 million,438 thousand
+The Elder Scrolls V: Skyrim,39.99,November 11, 2011,30 million,231 thousand
+Terraria,9.99,May 16, 2011,37 million,491 thousand
+Rocket League,Free,July 7, 2015,110 million,750 thousand
+Genshin Impact,Free,September 28, 2020,1 billion,5.4 million
+Cyberpunk 2077,59.99,December 10, 2020,609 million,225 thousand
+Valorant,Free,June 2, 2020,100 million,3 million
+Assassin's Creed Valhalla,59.99,November 10, 2020,1 billion,130 thousand
+Final Fantasy XIV,Subscription,September 30, 2010,1.2 billion,47 thousand
+Mortal Kombat 11,59.99,April 23, 2019,500 million,23 thousand
+Sea of Thieves,39.99,March 20, 2018,2 billion,271 thousand
+The Legend of Zelda: Breath of the Wild,59.99,March 3, 2017,1.5 billion,1.5 million
+Monster Hunter: World,29.99,August 9, 2018,16.8 million,329 thousand
+Rainbow Six Siege,19.99,December 1, 2015,2 billion,201 thousand
+Among Us,3.99,June 15, 2018,11.4 million,438 thousand

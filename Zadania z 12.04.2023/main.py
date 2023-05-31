@@ -67,7 +67,7 @@ import numpy as np
 
 # z = np.indices((5,3))  # tworzy dwie macierze, pierwsza ktora jest inkrementowana kolumnami, druga wierszami
 # print(z)  # wypisuje obie macierze
-# print(z[0][1][2])  # [0] ktora z dwoch macierz, [1] ktory wiersz z tej macierzy, [2] ktory element z [1] wiersza
+# print(z[0][2][2])  # [0] ktora z dwoch macierz, [1] ktory wiersz z tej macierzy, [2] ktory element z [1] wiersza
 
 
 

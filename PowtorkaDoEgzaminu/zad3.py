@@ -27,6 +27,7 @@ ax.set_xlabel('Lata')
 ax.set_ylabel('Wynagrodzenie')
 ax.set_title('Wykresy wynagrodzeń')
 
+plt.text(0.30, 0.92, 'Tomasz Budzejko', transform=ax.transAxes, ha='right', va='bottom')
 
 ax.set_xticks(indeksy + szerokosc_slupka / 2)
 ax.set_xticklabels(lata)
@@ -35,6 +36,8 @@ ax.bar_label(wykres_kujawskopomorskie, fontsize=7)
 ax.bar_label(wykres_lubelskie, fontsize=7)
 
 ax.legend(loc='lower right')
+
+plt.savefig('zad3.webp')
 
 plt.show()
 
